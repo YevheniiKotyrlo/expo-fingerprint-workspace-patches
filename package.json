@@ -1,0 +1,8 @@
+{
+  "name": "fingerprint-workspace-patches",
+  "private": true,
+  "workspaces": ["app"],
+  "patchedDependencies": {
+    "react-native@0.88.0": "patches/react-native@0.88.0.patch"
+  }
+}

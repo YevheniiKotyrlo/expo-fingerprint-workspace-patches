@@ -1,0 +1,11 @@
+diff --git a/ReactCommon/react/renderer/mounting/Differentiator.cpp b/ReactCommon/react/renderer/mounting/Differentiator.cpp
+index 3e1307093315f7ec58ac90654df86d40a272e79e..d3e320cc6693ad6030a48953d4dc5c9268088a07 100644
+--- a/ReactCommon/react/renderer/mounting/Differentiator.cpp
++++ b/ReactCommon/react/renderer/mounting/Differentiator.cpp
+@@ -1438,3 +1438,6 @@ ShadowViewMutation::List calculateShadowViewMutations(
+ }
+ 
+ } // namespace facebook::react
++
++// patched: first revision
++// patched: second revision
